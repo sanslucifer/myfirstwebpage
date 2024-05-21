@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(45deg,green,lightgreen,white);
+}
+
+header{
+    background-color: grey;
+}
+
+nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    padding: 2px;
+}
+
+li{
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    transition: 0.5s;
+}
+
+li:hover{
+    background-color: chocolate;
+    opacity: 50%;
+    border-width: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+}
+
+.sec1{
+    width: 600px;
+    height: 400px;
+    position: relative;
+    margin: 10px 400px 10px 400px;
+}
+
+.b1{
+    position: absolute;
+    left: 5px;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    color: wheat;
+    background: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+    
+.b2{
+    position: absolute;
+    right: 5px;
+    top: 200px;
+    width: 30px;
+    height: 30px;
+    color: wheat;
+    background: black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.b1:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.b2:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+.img{
+    width: 100%;
+    padding-right: 10px;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow:  0 10px 20px 3px;
+}
+
+.about{
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+.about_sub{
+    display: flex;
+
+}
+
+.about_sub p:hover{
+    background: linear-gradient(45deg,red,blue);
+    height: 200px;
+    border-radius: 2ex;
+}
+
+h1{
+    width: 250px;
+    color: black;
+    font-family: fantasy;
+    font-size: 45px;
+    cursor: pointer;
+    margin: 0 0 0 10px;
+}
+
+h1:hover{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 0.4s;
+}
+
+.about_sub p{
+    position: absolute;
+    height: 200px;
+    width: 600px;
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.img1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 100px;
+    box-shadow: 0 10px 20px 3px;
+    right: 300px;
+    top: 90px;
+}
+
+.gallery_con{
+    justify-content: space-evenly;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.gallery_con h1{
+    width: auto;
+
+}
+
+.gallery_item{
+    height: 200px;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.gallery_item img{
+    padding: 0;
+    border-radius: 20px;
+    margin: 0 0 10px;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.gallery_item img:hover{
+    box-shadow: 12px 23px 32px 12px;
+    box-shadow: color(234 32 86);
+}
+
+.blog1{
+    display: flex;
+}
+
+.blog_title{
+    font-family: "Dancing Script", cursive;
+    font-size: 65px;
+    width: auto;
+    background: linear-gradient(45deg,violet,plum,white);
+}
+
+.blog_title span{
+    text-decoration: underline;
+}
+
+.blogtxt p{
+    font-size: 22px;
+}
+
+.blog_auther{
+    font-size: 45px;
+    color: blue;
+}
+
+.blog_img{
+    height: 60%;
+    width: 60%;
+    margin-top: 90px;
+    padding: 6px;
+}
+
+.contact h3{
+    
+    font-size: 50px;
+    font-family: 'dancing script',cursive;
+    background: linear-gradient(70deg,cyan,lightblue,white)
+}
+
+.contact p{
+    font-size: 30px;
+}
+
+.form form {
+    font-size: 30px;
+}
+
+.form{
+    width:1000px;
+    padding: 10px;
+    background-color: darkcyan;
+}
+
+.form form fieldset{
+    border-radius: 2ex;
+    border-color: red;
+
+}
+
+.submit{
+    color: rgb(65, 7, 7);
+    background-color: deepskyblue;
+    border-radius: 2ex;
+    width: 300px;
+}
+
+.address{
+    display: flex;
+    padding: 10px;
+    height: 200px;  
+    width: 1000px; 
+}
+
+.address_sub{
+    background-color: peachpuff;
+    padding: 10px;
+}
+
+.map{
+    margin: 5px;
+}
