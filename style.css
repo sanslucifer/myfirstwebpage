@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    color-scheme: dark;
 }
 
 body{
@@ -95,6 +96,12 @@ li:hover{
     height: 400px;
 }
 
+.about h1{
+    background: linear-gradient(50deg,violet,plum,pink);
+    width: auto;
+}
+
+
 .about_sub{
     display: flex;
 
@@ -142,15 +149,14 @@ h1:hover{
 }
 
 .gallery_con{
-    justify-content: space-evenly;
-    padding: 20px;
-    flex-wrap: wrap;
+    
 }
 
 .gallery_con h1{
+    background: linear-gradient(45deg,gold,yellow,lightyellow,white);
     width: auto;
-
 }
+
 
 .gallery_item{
     height: 200px;
@@ -178,14 +184,15 @@ h1:hover{
     display: flex;
 }
 
-.blog_title{
+.blogtxt h1{
     font-family: "Dancing Script", cursive;
     font-size: 65px;
     width: auto;
     background: linear-gradient(45deg,violet,plum,white);
+    width: auto;
 }
 
-.blog_title span{
+.blogtxt h1 span{
     text-decoration: underline;
 }
 
@@ -206,7 +213,7 @@ h1:hover{
 }
 
 .contact h3{
-    
+    margin: auto;
     font-size: 50px;
     font-family: 'dancing script',cursive;
     background: linear-gradient(70deg,cyan,lightblue,white)
