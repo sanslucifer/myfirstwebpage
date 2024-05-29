@@ -4,7 +4,7 @@
 }
 
 body{
-    background: no-repeat linear-gradient(45deg,green,lightgreen,white);
+    background: no-repeat linear-gradient(45deg,rgb(5, 73, 5),rgb(27, 122, 8),rgb(37, 179, 37));
 }
 
 header{
@@ -35,16 +35,17 @@ li:hover{
 }
 
 .container{
-    width: 100%;
-    height: auto;
+    width: 200px;
+    height: 500px;
     padding: 30px;
+    position: relative;
 }
 
 .sec1{
     width: 600px;
     height: 400px;
-    position: relative;
-    margin: 10px 400px 10px 400px;
+    position: absolute;
+    margin: right;
 }
 
 .b1{
@@ -91,26 +92,26 @@ li:hover{
 }
 
 .about{
-    position: relative;
-    width: 100%;
-    height: 400px;
+   display: flex;
 }
 
 .about h1{
-    background: linear-gradient(50deg,violet,plum,pink);
+    font-family: "Dancing Script", cursive;
+    font-size: 65px;
+    width: auto;
+    background: linear-gradient(45deg,violet,plum,white);
     width: auto;
 }
 
 
-.about_sub{
-    display: flex;
-
+.about_sub {
 }
 
 .about_sub p:hover{
     background: linear-gradient(45deg,red,blue);
     height: 200px;
     border-radius: 2ex;
+    transition: 0.5s;
 }
 
 h1{
@@ -129,28 +130,24 @@ h1:hover{
 }
 
 .about_sub p{
-    position: absolute;
     height: 200px;
     width: 600px;
     margin: 5px;
     padding: 10px;
     cursor: pointer;
     font-size: 20px;
+    display: flex;
 }
 
 .img1{
     width: 150px;
     height: 150px;
-    position: absolute;
     border-radius: 100px;
     box-shadow: 0 10px 20px 3px;
     right: 300px;
     top: 90px;
 }
 
-.gallery_con{
-    
-}
 
 .gallery_con h1{
     background: linear-gradient(45deg,gold,yellow,lightyellow,white);
@@ -260,4 +257,42 @@ h1:hover{
 
 .map{
     margin: 5px;
+}
+
+@media screen and (max-width:500px) {
+    nav{
+        flex-direction: column;
+    }
+
+    .container{
+        width: 300px;
+        height: 300px;
+    }
+    
+    .sec1{
+        width: 290px;
+        height: 200px;
+    }
+
+    .b1{
+        top: 100px;
+        left: 5px;
+        size: 5px;
+    }
+
+
+    .b2{
+        top: 100px;
+        right: 5px;
+        size: 5px;
+    }
+
+    .about h1{
+        font-size: 29px;
+        width: 200px;
+    }
+    .about_sub p{
+        font-size: 10px;
+        width: 200px;
+    }
 }
